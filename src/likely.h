@@ -15,7 +15,7 @@
 #if defined(__GNUC__) || defined(__clang__)
 #define UNLIKELY(x) __builtin_expect(!!(x), 0)
 #else
-#define UNLIKLEY(x) !(x)
+#define UNLIKELY(x) !(x)
 #endif
 #endif
 
