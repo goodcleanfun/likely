@@ -47,7 +47,7 @@ TEST test_combined(void) {
 SUITE(suite_likely) {
     RUN_TEST(test_likely);
     RUN_TEST(test_unlikely);
-    RUN_TEST(test_together);
+    RUN_TEST(test_combined);
 }
 
 GREATEST_MAIN_DEFS();
